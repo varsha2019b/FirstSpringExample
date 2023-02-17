@@ -20,10 +20,12 @@ public class EmployeeMain {
 		emp.setLastName("B");
 		emp.setBirtDate(new Date());
 		emp.setMobileNo(123456789);
-		System.out.println("FirsName:" + emp.getFirstName());
-		System.out.println("LastName:" + emp.getLastName());
-		System.out.println("BirtDate:" + emp.getBirtDate());
-		System.out.println("MobileNo:" + emp.getMobileNo());
+		
+		
+		System.out.println("------->>> FirsName:" + emp.getFirstName());
+		System.out.println("------->>> LastName:" + emp.getLastName());
+		System.out.println("------->>> BirtDate:" + emp.getBirtDate());
+		System.out.println("------->>> MobileNo:" + emp.getMobileNo());
 	}
 
 }
